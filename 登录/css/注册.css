@@ -1,0 +1,411 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+#J_HEAD_header{
+	width: 90%;
+	height: 170px;
+	margin: 0 auto;
+	border-bottom: 1px solid #C0C0C0;
+}
+#J_HEAD_header .row{
+	width: 100%;
+	height: 128px;
+	position: relative;
+}
+#J_HEAD_header .row .col-sm-2{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#J_HEAD_header .row .col-sm-2 a{
+	display: block;
+	width: 211px;
+	height: 128px;
+	background: url(../imgs/用户登录-会员中心_files/logo.jpg);
+}
+#J_HEAD_header .row .col-sm-10{
+	width: 940px;
+	height: 128px;
+	position: absolute;
+	left: 211px;
+	top: 0;
+}
+#J_HEAD_header .row .col-sm-10 .navbar{
+	width: 910px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#J_HEAD_header .row .col-sm-10 .navbar .container-fluid{
+	width: 910px;
+	height: 30px;
+	line-height: 30px;
+	padding-bottom:20px ;
+}
+#J_HEAD_header .row .col-sm-10 .navbar .container-fluid ul{
+	float: right;
+}
+#J_HEAD_header .row .col-sm-10 .navbar .container-fluid ul li{
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	font-weight:600;
+	color: #000000;
+}
+#J_HEAD_header .row .col-sm-10 .navbar .container-fluid ul li a{
+	color: #000000;
+	padding: 10px;
+}
+#JS_HP_search{
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 910px;
+	height: 80px;
+}
+#JS_HP_search .col-md-1{
+	width: 580px;
+	height: 80px;
+	position: absolute;
+	left: 200px;
+	top: 0;
+}
+#JS_HP_search .col-md-1 .register{
+	width: 550px;
+	height: 15px;
+	position: absolute;
+	left: 30px;
+	top: 0;
+	font-size: 10px;
+	padding-bottom:2px ;
+}
+#JS_HP_search .col-md-1 .register .text-warning{
+	color: red;
+	font-weight: 600;
+}
+#JS_HP_search .col-md-1 .register a{
+	color: #000000;
+	font-weight: 500;
+}
+#JS_HP_search .col-md-1 #J_HP_SEARCH_FORM{
+	width: 550px;
+	height: 25px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+#JS_HP_search .col-md-1 #J_HP_SEARCH_FORM .form-control{
+	width: 280px;
+	height: 25px;
+	border: 1px solid #CCCCCC;
+	color: #CCCCCC;
+}
+#JS_HP_search .col-md-1 #J_HP_SEARCH_FORM .btn{
+	width: 87px;
+	height: 27px;
+	position: absolute;
+	left: 280px;
+	top: 0px;
+	background-color:#000000 ;
+	color: white;
+	border: 1px solid #000000;
+}
+#JS_HP_search .col-md-1 .navbar-sm{
+	width: 550px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+#JS_HP_search .col-md-1 .navbar-sm ul li{
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	font-weight:600;
+	color: #C0C0C0;
+}
+#JS_HP_search .col-md-1 .navbar-sm ul li a{
+	color: #C0C0C0;
+	padding: 10px;
+}
+#J_HEAD_header .container{
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+}
+#J_HEAD_header .container .navbar{
+	width: 80%;
+	height: 30px;
+	position: absolute;
+	left: -20px;
+	top: 0;
+}
+#J_HEAD_header .container .navbar ul li{
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	font-weight:600;
+	color: #C0C0C0;
+}
+#J_HEAD_header .container .navbar ul li a{
+	color: #000000;
+	padding: 10px;
+}
+#body{
+	width: 1263px;
+	height: 545px;
+	border-bottom: 2px solid #000000;
+	
+}
+#body .header{
+	width: 1130px;
+	height: 45px;
+	position: relative;
+	margin: 0 auto;
+}
+#body .header ul{
+	width: 120px;height: 30px;
+	position:absolute;
+	left: 20px;
+	top: 10px;
+}
+#body .header ul li{
+	width: 60px;
+	height: 20px;
+	color: #000000;
+	font-size: 14px;
+	text-align: center;
+	list-style: none;
+	float: left;
+}
+#body .header ul li:nth-child(1){
+	background: url(../imgs/用户登录-会员中心_files/home-breadcrumb.png) no-repeat;
+}
+#body .title{
+	width: 1263px;
+	height: 35px;
+	text-align: center;
+	
+	float: left;
+}
+#body .row{
+	width: 1100px;
+	height: 365px;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+#body .row .ad-box{
+	width: 465px;
+	height: 365px;
+	position: absolute;
+	top: 60px;
+	left: 30px;
+}
+#body .row .ad-box .item{
+	width: 465px;
+	height: 24px;
+	padding-bottom: 10px;
+	position: relative;
+}
+#body .row .ad-box .dan .item .ww{
+	width: 100px;
+	height: 24px;
+	text-align: center;
+	float: left;
+	display: block;
+	font-size: 14px;
+	color: #8C8C8C;
+}
+
+#body .row .ad-box .dan .item .ee{
+	width: 280px;
+	height: 24px;
+	text-align: center;
+	float: right;
+	display: block;
+	border: 1px solid #8C8C8C;
+}
+#body .row .ad-box .dan .item:nth-child(2) .ee{
+	width: 100px;
+	margin-right:180px ;
+	position: relative;
+}
+#body .row .ad-box .dan .item:nth-child(2) a{
+	display: block;
+	width: 40px;
+	text-align: center;
+	float:left;
+	font-size: 10px;
+	position: absolute;
+	left: 120px;
+	top: 0px;
+}
+#body .row .ad-box .dan .item:nth-child(2) span{
+	display: block;
+	width: 101px;
+	height: 30px;
+	
+	position: absolute;
+	left: 290px;
+}
+#body .row .ad-box .dan .item:nth-child(2) span img{
+	width: 101px;
+	height: 30px;
+}
+#body .row .ad-box .dan .item:nth-child(3) .ee{
+	width: 180px;
+	margin-right:100px ;
+	position: relative;
+}
+#body .row .ad-box .dan .item:nth-child(3) .btn-1{
+	width: 80px;
+	height: 30px;
+	background: #000000;
+	color: #F5F5F5;
+	position: absolute;
+	right: 0;
+}
+#body .row .ad-box #pass{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	left: 180px;
+	font-size:12px;
+	padding-top: 20px;
+}
+#body .row .ad-box #pass {
+	font-size:12px;
+}
+#body .row .ad-box .next{
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	left: 340px;
+	top: 240px;
+	background: #C0C0C0;
+	font-size: 20px;
+	color: floralwhite;
+}
+
+
+
+
+#body .row .col-sm-6{
+	width: 565px;
+	height: 323px;
+	position: absolute;
+	left: 550px;
+	top: 60px;
+	border-left:1px solid #C0C0C0 ;
+}
+#body .col-sm-6 .header{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+}
+
+#body .col-sm-6 .last{
+	width: 360px;
+	height: 80px;
+	position: absolute;
+	left: 80px;
+	top: 200px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding-top: 20px;
+	border-top:1px solid #C0C0C0 ;
+}
+#body .col-sm-6 .last div{
+	width: 45px;
+	height: 45px;
+	background: url(../imgs/用户登录-会员中心_files/reg.png) no-repeat;
+}
+
+
+
+
+#footer{
+	width: 1263px;
+	height: 400px;
+	position: relative;
+	border-bottom: 1px solid #221714;
+}
+#footer .row{
+	width: 1130px;
+	height: 360px;
+	position: absolute;
+	top: 0;
+	left: 65px;
+}
+
+#footer .row .col-md-5{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+#footer .row .col-md-5 div{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+#footer .row .col-md-5 div ul{
+	width: 100%;
+	height: 100%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+#footer .row .col-md-5 div ul li{
+	list-style: none;
+	padding: 5px;
+}
+#footer .row .col-md-5 div ul li:nth-child(1){
+	font-size:16px ;
+	font-weight: 600;
+	padding: 5px;
+}
+#footer .row .col-md-5 div ul li a{
+	color: #000000;
+	font-size: 14px;
+}
+#footer .row .col-md-6{
+	width: 40%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+#footer .row .col-md-6 .header{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 80%;
+	height: 40px;
+	margin-top: 15px;
+	font-weight: 600;
+	font-size: 16px;
+}
+#footer .row .col-md-6 .body{
+	width: 100%;
+	height: 290px;
+	position: absolute;
+	top: 65px;
+	left: 20px;
+}
+#footer .row .col-md-6 .body ul li{
+	list-style: none;
+	padding: 2px;
+}
+#footer .row .col-md-6 .body .image-1{
+	position: absolute;
+	left: 20px;
+	top: 170px;
+	
+}
+#footer .row .col-md-6 .body .image-2{
+	position: absolute;
+	left: 120px;
+	top: 170px;
+	
+}
